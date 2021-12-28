@@ -1,7 +1,7 @@
 name: dk
 dependencies:
-  - numpy
   - pandas
-  - draft-kings
-  - streamlit
-  - pulp
+  - pip:
+    - pulp
+    - streamlit
+    - draft-kings
